@@ -125,6 +125,7 @@ function App() {
           <Table
             table={table}
             setTable={setTable}
+            setTableSize={setTableSize}
             columnsSize={columnsSize}
             selection={selection}
             setSelection={setSelection}
