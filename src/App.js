@@ -34,7 +34,6 @@ function App() {
 
     // The createTable function will create the spreadsheet to be created using the dataArray as well as the tableSize.
     const createTable = (array, size) => {
-      console.log("useEffect");
       let newTable = [];
 
       // We can only create the table if we have valid dimensions and if a dataArray have been loaded.
