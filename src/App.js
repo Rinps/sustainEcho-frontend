@@ -24,7 +24,7 @@ function App() {
     const fetchData = async () => {
       try {
         const serverResponse = await axios.get(
-          `${backendURL}/608edeb301460510b085ff37`
+          `${backendURL}/6093d42f86e3d50015ed7663`
         );
         setDataArray({ ...serverResponse.data });
       } catch (error) {
